@@ -13,12 +13,16 @@ mysql -hlocalhost --protocol=TCP -uroot -p
 
 in order to run setup.sql, use the following command
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f0b02ee644cea3a6e2cc05d4a21dce5a3f995153
 
 `mysql -hlocalhost --protocol=tcp -u root  -p < setup.sql`
 
 #### Set up virtualenv
 `~ virtualenv venv`
 
+<<<<<<< HEAD
 =======
 
 `mysql -hlocalhost --protocol=tcp -u root  -p < setup.sql`
@@ -27,6 +31,8 @@ in order to run setup.sql, use the following command
 `~ virtualenv venv`
 
 >>>>>>> feat: adding find store functionality (#1)
+=======
+>>>>>>> f0b02ee644cea3a6e2cc05d4a21dce5a3f995153
 #### Install dependencies
 ```
 pip3 install mysqlclient==1.4.2
@@ -78,10 +84,8 @@ Find by address
 ip': 55428, 'end_zip': 53507, 'latitude': '45.0521539', 'longitude': '-93.364854', 'county': 'Hennepin County'}]
 ```
 
-<<<<<<< HEAD
 #### Assumptions:
 
-=======
 
 #### Assumptions:
 I worked on the assumption that all the locations I needed were located in the csv file.  As I thought about this
@@ -90,7 +94,6 @@ tool or a separate implementation of a project.  Initially, I thought that I can
 end zip range to filter a nearby location based on a zip input.  Maybe I need to utilize the lat and long location.
 
 More business requirements gathering is needed.
->>>>>>> feat: adding find store functionality (#1)
 
 Need to do:
 1) More functionality, locate based on zip code ranges
