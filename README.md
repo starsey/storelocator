@@ -12,27 +12,17 @@ mysql -hlocalhost --protocol=TCP -uroot -p
 `mysql -hlocalhost --protocol=tcp -u root  -p`
 
 in order to run setup.sql, use the following command
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f0b02ee644cea3a6e2cc05d4a21dce5a3f995153
 
 `mysql -hlocalhost --protocol=tcp -u root  -p < setup.sql`
 
 #### Set up virtualenv
 `~ virtualenv venv`
 
-<<<<<<< HEAD
-=======
-
 `mysql -hlocalhost --protocol=tcp -u root  -p < setup.sql`
 
 #### Set up virtualenv
 `~ virtualenv venv`
 
->>>>>>> feat: adding find store functionality (#1)
-=======
->>>>>>> f0b02ee644cea3a6e2cc05d4a21dce5a3f995153
 #### Install dependencies
 ```
 pip3 install mysqlclient==1.4.2
